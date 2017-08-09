@@ -9,6 +9,6 @@ for name in nameList:
 html = urlopen("http://www.pythonscraping.com/pages/page3.html")
 bs0bj = BeautifulSoup(html, "html.parser")
 
-for sibling in bs0bj.find("table",{"id":"giftlist"}).tr.next_siblings:
+for sibling in bs0bj.find("table",{"id":"giftList"}).tr.next_siblings:
     print(sibling)
     
