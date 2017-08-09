@@ -14,7 +14,7 @@ def getTitle(url):
         return None
     return title
 
-title = getTitle("http://www.pythonscraping.com/pages/page2.html")
+title = getTitle("http://www.pythonscraping.com/pages/pa.html")
 if title == None:
     print("Title could not be found")
 else:
